@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional HTML2Canvas implementation guide. Learn about html2canvas js, html2canvas options, and react convert image to base64 with modern web techniques.">
+    <title>HTML2Canvas - Modern Web Screenshot Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">HTML2Canvas</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://github.com/html-2-canvas/html2canvas" class="github-icon" target="_blank" rel="noopener">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a></li>
+                <li><a href="download.html" class="btn-download">Download</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Capture Web Screenshots <span class="highlight">Instantly</span></h1>
+                    <p>Transform your web pages into high-quality canvas images directly in the browser. Fast, efficient, and incredibly easy to implement with modern JavaScript techniques.</p>
+                    <div class="hero-buttons">
+                        <a href="https://html2canvas.net/" class="btn-primary" target="_blank" rel="noopener">Visit Official Site</a>
+                        <a href="download.html" class="btn-secondary">Get Started</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="50" y="50" width="400" height="300" rx="20" fill="#FFEEEA"/>
+                        <rect x="70" y="70" width="360" height="40" rx="10" fill="white"/>
+                        <circle cx="90" cy="90" r="8" fill="#FF7757"/>
+                        <circle cx="115" cy="90" r="8" fill="#FFB84D"/>
+                        <circle cx="140" cy="90" r="8" fill="#4CAF50"/>
+                        <rect x="70" y="130" width="360" height="180" rx="10" fill="white"/>
+                        <rect x="90" y="150" width="150" height="100" rx="8" fill="#FF7757" opacity="0.3"/>
+                        <rect x="260" y="150" width="150" height="40" rx="5" fill="#404757" opacity="0.2"/>
+                        <rect x="260" y="200" width="150" height="40" rx="5" fill="#404757" opacity="0.2"/>
+                        <rect x="90" y="260" width="320" height="30" rx="5" fill="#FF7757"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Capabilities</h2>
+                <p>Discover the essential features that make web page rendering simple and efficient</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Client-Side Rendering</h3>
+                    <p>Render entire web pages directly in the browser without server-side processing. This approach significantly boosts performance and reduces latency for real-time rendering.</p>
+                    <span class="feature-number">01</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>DOM-Based Screenshots</h3>
+                    <p>Capture images based on the DOM structure, ensuring accurate representation of webpage content, styles, and visual elements with precise detail.</p>
+                    <span class="feature-number">02</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Cross-Browser Support</h3>
+                    <p>Works seamlessly across modern browsers including Chrome, Firefox, Safari, and Edge. Ensures consistent behavior and appearance across different environments.</p>
+                    <span class="feature-number">03</span>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Easy Integration</h3>
+                    <p>Integrate quickly with simple JavaScript calls. The straightforward API with minimal setup enables rapid deployment into existing projects.</p>
+                    <span class="feature-number">04</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About This Project</h2>
+                    <p>This modern implementation showcases advanced web screenshot capabilities using <a href="https://html2canvas.net/">html2canvas js</a> technology. Our platform is designed to provide developers with powerful tools for rendering accurate visual representations of web content.</p>
+                    <p>When working with complex web applications, understanding <a href="https://html2canvas.net/what-is-equivalent-to-html2canvas/">html2canvas options</a> becomes essential for achieving optimal results. Our solution integrates seamlessly with various frameworks and libraries.</p>
+                    <p>For React developers looking to <a href="https://html2canvas.net/how-to-convert-canvas-to-base64-image/">react convert image to base64</a>, this platform offers comprehensive guides and implementation strategies that ensure smooth integration with your existing workflow.</p>
+                    <ul>
+                        <li>Innovative client-side rendering technology</li>
+                        <li>Support for complex layouts and dynamic styles</li>
+                        <li>Compatible with modern web frameworks</li>
+                        <li>Extensive documentation and examples</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <svg width="450" height="350" viewBox="0 0 450 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="450" height="350" rx="15" fill="white"/>
+                        <rect x="30" y="30" width="180" height="140" rx="10" fill="#FF7757" opacity="0.2"/>
+                        <rect x="240" y="30" width="180" height="140" rx="10" fill="#FF7757" opacity="0.3"/>
+                        <rect x="30" y="190" width="390" height="130" rx="10" fill="#FFEEEA"/>
+                        <circle cx="225" cy="255" r="40" fill="#FF7757" opacity="0.5"/>
+                        <rect x="60" y="240" width="100" height="10" rx="5" fill="#404757" opacity="0.3"/>
+                        <rect x="60" y="260" width="140" height="10" rx="5" fill="#404757" opacity="0.3"/>
+                        <rect x="60" y="280" width="120" height="10" rx="5" fill="#404757" opacity="0.3"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose This Solution?</h2>
+                <p>Built with modern web standards and best practices</p>
+            </div>
+            <div class="content-section">
+                <p>Modern web applications require efficient screenshot capabilities for various use cases including documentation, testing, and user-generated content. This solution leverages advanced browser APIs to deliver high-quality results without compromising performance.</p>
+                <p>The implementation is designed with developers in mind, offering flexible configuration options and comprehensive documentation. Whether you're building a React application, a Vue.js project, or vanilla JavaScript solution, the integration process is straightforward and well-documented.</p>
+                <p>With support for responsive designs, dynamic content, and complex CSS layouts, you can confidently capture any web page element. The library handles edge cases gracefully and provides detailed error reporting for debugging purposes.</p>
+                <p>Performance optimization is built into the core, ensuring that large pages and complex DOM structures are handled efficiently. The client-side processing eliminates server dependencies, making it perfect for modern web applications that prioritize speed and user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="cta-section">
+                <h2>Ready to Get Started?</h2>
+                <p>Download now and start capturing beautiful web screenshots in minutes</p>
+                <a href="https://html2canvas.net/" class="btn-white" target="_blank" rel="noopener">Visit Official Site</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HTML2Canvas</h3>
+                    <p>Professional web screenshot solutions for modern developers. Built with performance and ease of use in mind.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/html-2-canvas/html2canvas" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="download.html">Download</a></li>
+                        <li><a href="https://html2canvas.net/" target="_blank" rel="noopener">Official Site</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://html2canvas.net/" target="_blank" rel="noopener">Documentation</a></li>
+                        <li><a href="https://github.com/html-2-canvas/html2canvas" target="_blank" rel="noopener">GitHub Repository</a></li>
+                        <li><a href="https://html2canvas.net/download/" target="_blank" rel="noopener">Downloads</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HTML2Canvas Project. All rights reserved.</p>
+                <p>Designed & Developed with ❤️ for the Developer Community</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
